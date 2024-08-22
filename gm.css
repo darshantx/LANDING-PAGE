@@ -1,0 +1,133 @@
+*{
+    margin : 0%;
+    padding : 0%;
+}
+body{
+    background-image: url("wp2639536.jpg");
+    background-size: 109%;
+    color: white ;   
+    font-family:'mulish',sans-serif;
+    border-top: 0.5rem solid #fc1703 ;
+}
+
+/* heading in top margin*/
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+nav h1{
+    font-size: 60px;
+    font-family: 'lato',sans-serif;
+}
+nav span{
+    color: red;
+    font-size: 65px;
+}
+
+/* learn more botton settings*/
+ul button{
+    width: 115px;
+    height: 36px;
+    background-color: rgb(147, 32, 32);
+    color: white;
+    font-size: 22px;
+    border: none;
+    border-radius: 3px;
+}
+ul button:hover{
+    cursor: pointer;
+    background-color:  rgb(215, 88, 88);
+}
+
+/*home,contact....... bottons in without list manner*/
+ul{
+    display: flex;
+    list-style: none;
+}
+
+/*list bottons in line without lis*/
+ul li a{
+    margin-inline: 33px;
+    font-size: 20px;
+}
+
+/*border style for ul list bottons */
+ul li a:hover{
+    border-bottom: 2.8px solid rgb(14, 14, 230);
+    border-radius: 2.5px;
+    margin-top: 2px;
+    cursor: pointer;
+    font-size: 22px;
+
+}
+
+/* text margin and font size*/
+.text{
+    margin-left: 5.5%;
+    margin-top: 76px;
+}
+
+.text h1{
+    font-size: 93px;
+    
+
+}
+
+
+/* paragraph=“To keep the body in good health is a duty otherwise we shall not be able to keep <br>our mind strong and clear.” <br>
+                -Buddha margin*/
+.text p{
+    font-size: 25px;
+    margin-top: 25px;
+    
+}
+
+
+/* join now button margin*/
+.text button{
+    width: 170px;
+    height: 44px;
+    background-color:  rgb(145, 30, 30);
+    color: white;
+    border: none;
+    margin-top: 42px;
+    margin-left: 42%;
+    font-size: 25px;
+}
+.text button:hover{
+    border: 3px solid white;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+/*facilities section start*/
+.facilities{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    z-index: 3;
+}
+.asd{
+    width: 33.3%;
+    height: 300px;
+    display:flex;
+    justify-content:flex-start;
+    flex-direction: column;
+    align-items: center;
+
+}
+.asd p{
+    margin-top: 5%;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-size: 19.9px;
+}
+
+.asd h2{
+    font-size: 31px;
+    margin-top: 5%;
+    text-transform: uppercase;
+}
